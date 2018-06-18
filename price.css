@@ -1,0 +1,48 @@
+/* ======================== */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,700,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+body {
+    /*css for full size background image*/
+      background: url(tim-mossholder-244857.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;     
+    }
+    
+.panel {
+        border: 1px solid #2ae678; 
+        border-radius:0;
+        transition: box-shadow 0.5s;
+        background-color: #fff;
+        }
+.panel:hover {
+        box-shadow: 10px 5px 50px rgba(139, 136, 185, .3);
+    }
+.panel-heading {
+        color: #fff !important;
+        background-color: #070606 !important;
+        padding: 25px;
+        border-bottom: 1px solid transparent;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+.panel-heading:hover{
+        border: 1px solid #fff;
+        background-color:rgb(8, 184, 49) !important;
+    }
+
+.panel-body:hover {
+        border: 1px solid rgb(8, 184, 49);
+        background-color: black !important;
+        color: #fff !important;
+    }
+
+
+
+

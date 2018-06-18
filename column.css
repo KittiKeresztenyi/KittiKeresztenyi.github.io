@@ -1,0 +1,40 @@
+
+body {
+    background: url(neven-krcmarek-258761-unsplash.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.column {
+    background-color: #28a745;
+    color:white;
+    max-width: 500px;
+}
+
+.column :hover {
+    color:black;
+    
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (110% zoom) */
+}
+
+.map-responsive {
+    position: relative;
+    padding-bottom: 30%; /* This is the aspect ratio*/
+    height: 0;
+    overflow: hidden;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
